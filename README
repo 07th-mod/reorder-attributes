@@ -1,0 +1,3 @@
+This program is used to enforce well-ordered attributes in a C# file, where a decompiler may spit code out with attributes in arbitrary order.  There may be a decompiler option to support what this program manually does.
+
+We want to enforce the attribute ordering so that we can see meaningful diffs when a new arc is released and we're setting up the decompiled code for the first time.  Without this, it was intractable to sift through all the noise.
